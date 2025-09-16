@@ -30,7 +30,6 @@ Modern UI: Clean, visually appealing design with smooth animations<br>
 <br>
 
 <h3>📁 Project Structure</h3><br>
-====================
 text
 ├── index.html                 # Main HTML file with embedded CSS and JavaScript
 ├── boomdevs_hero_section.riv  # Rive animation file (not included in repo)
@@ -46,7 +45,6 @@ text
 <br>
 
 <h3>🎨 Customization</h3><br>
-====================
 Easily modify:<br>
   => Background gradient colors in CSS<br>
   => Canvas dimensions in HTML<br>
@@ -55,7 +53,6 @@ Easily modify:<br>
 <br>
 
 <h3>🌐 Browser Compatibility</h3><br>
-=============================
 Works in all modern browsers supporting:<br>
 
 > HTML5 Canvas<br>
