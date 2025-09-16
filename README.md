@@ -1,7 +1,7 @@
 <h1>Rive Animation with Interactive Hotspots</h1>
 This project showcases an interactive Rive animation implementation featuring multiple clickable elements that open specific case study pages. The animation serves as an engaging visual interface with various interactive components.
 
-<h3>✨ Features</h3>
+<h3>✨ Features</h3><br>
 Interactive Rive Animation: Seamlessly integrated Rive animation with interactive elements<br>
 
 Multiple Clickable Areas: 40+ interactive hotspots throughout the animation<br>
@@ -14,7 +14,7 @@ Event Logging: Console logging for debugging interaction events<br>
 
 Modern UI: Clean, visually appealing design with smooth animations<br>
 
-<br>
+
 <h3>🛠️ Technical Implementation</h3><br>
 1. Rive Runtime: Utilizes the latest Rive canvas runtime from unpkg CDN<br>
 2. HTML5 Canvas: Renders the animation efficiently using canvas element<br>
@@ -30,13 +30,13 @@ Modern UI: Clean, visually appealing design with smooth animations<br>
 <br>
 
 <h3>📁 Project Structure</h3><br>
-text
-├── index.html                 # Main HTML file with embedded CSS and JavaScript
-├── boomdevs_hero_section.riv  # Rive animation file (not included in repo)
-└── README.md                  # Project documentation
-⚙️ Configuration
+text<br>
+├── index.html                 # Main HTML file with embedded CSS and JavaScript<br>
+├── boomdevs_hero_section.riv  # Rive animation file (not included in repo)<br>
+└── README.md                  # Project documentation<br>
+⚙️ Configuration<br>
 
-===============The animation is configured with:================
+The animation is configured with:
 <br>
 * Autoplay enabled<br>
 * State machine "State Machine 1"<br>
@@ -52,7 +52,7 @@ Easily modify:<br>
   => Text styling and layout
 <br>
 
-<h3>🌐 Browser Compatibility</h3><br>
+<h3>🌐 Browser Compatibility</h3>
 Works in all modern browsers supporting:<br>
 
 > HTML5 Canvas<br>
@@ -62,5 +62,4 @@ Works in all modern browsers supporting:<br>
 
 <br>
 <h3>📝 License</h3><br>
-====================
 Ensure you have appropriate rights to use the Rive animation file and comply with Rive runtime licensing requirements.
