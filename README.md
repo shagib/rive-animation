@@ -2,34 +2,34 @@
 This project showcases an interactive Rive animation implementation featuring multiple clickable elements that open specific case study pages. The animation serves as an engaging visual interface with various interactive components.
 
 <h3>✨ Features</h3>
-Interactive Rive Animation: Seamlessly integrated Rive animation with interactive elements
+Interactive Rive Animation: Seamlessly integrated Rive animation with interactive elements<br>
 
-Multiple Clickable Areas: 40+ interactive hotspots throughout the animation
+Multiple Clickable Areas: 40+ interactive hotspots throughout the animation<br>
 
-Dynamic URL Mapping: Each interactive element opens a specific case study URL in a new tab
+Dynamic URL Mapping: Each interactive element opens a specific case study URL in a new tab<br>
 
-Responsive Design: Adapts to different screen sizes with an elegant gradient background
+Responsive Design: Adapts to different screen sizes with an elegant gradient background<br>
 
-Event Logging: Console logging for debugging interaction events
+Event Logging: Console logging for debugging interaction events<br>
 
-Modern UI: Clean, visually appealing design with smooth animations
+Modern UI: Clean, visually appealing design with smooth animations<br>
 
 <br>
-<h3>🛠️ Technical Implementation</h3>
-1. Rive Runtime: Utilizes the latest Rive canvas runtime from unpkg CDN
-2. HTML5 Canvas: Renders the animation efficiently using canvas element
-3. JavaScript Event Handling: Captures and processes interaction events from the animation
-4. CSS Styling: Modern gradient background and responsive layout
+<h3>🛠️ Technical Implementation</h3><br>
+1. Rive Runtime: Utilizes the latest Rive canvas runtime from unpkg CDN<br>
+2. HTML5 Canvas: Renders the animation efficiently using canvas element<br>
+3. JavaScript Event Handling: Captures and processes interaction events from the animation<br>
+4. CSS Styling: Modern gradient background and responsive layout<br>
 <br>
 
-<h3>🚀 Quick Start</h3>
-=>Clone or download the project files
-=>Ensure the Rive animation file (boomdevs_hero_section.riv) is in the same directory
-=>Open index.html in a web browser
-=>Interact with the animated elements to open case study pages
+<h3>🚀 Quick Start</h3><br>
+=>Clone or download the project files<br>
+=>Ensure the Rive animation file (boomdevs_hero_section.riv) is in the same directory<br>
+=>Open index.html in a web browser<br>
+=>Interact with the animated elements to open case study pages<br>
 <br>
 
-<h3>📁 Project Structure</h3>
+<h3>📁 Project Structure</h3><br>
 ====================
 text
 ├── index.html                 # Main HTML file with embedded CSS and JavaScript
@@ -38,32 +38,32 @@ text
 ⚙️ Configuration
 
 ===============The animation is configured with:================
-
-* Autoplay enabled
-* State machine "State Machine 1"
-* Automatic canvas resizing
+<br>
+* Autoplay enabled<br>
+* State machine "State Machine 1"<br>
+* Automatic canvas resizing<br>
 * 40+ predefined URL mappings for interactive elements
 <br>
 
-<h3>🎨 Customization</h3>
+<h3>🎨 Customization</h3><br>
 ====================
-Easily modify:
-  => Background gradient colors in CSS
-  => Canvas dimensions in HTML
-  => Interactive element URLs in JavaScript
+Easily modify:<br>
+  => Background gradient colors in CSS<br>
+  => Canvas dimensions in HTML<br>
+  => Interactive element URLs in JavaScript<br>
   => Text styling and layout
 <br>
 
-<h3>🌐 Browser Compatibility</h3>
+<h3>🌐 Browser Compatibility</h3><br>
 =============================
-Works in all modern browsers supporting:
+Works in all modern browsers supporting:<br>
 
-> HTML5 Canvas
-> ES6 JavaScript
-> CSS3 gradients
+> HTML5 Canvas<br>
+> ES6 JavaScript<br>
+> CSS3 gradients<br>
 
 
 <br>
-<h3>📝 License</h3>
+<h3>📝 License</h3><br>
 ====================
 Ensure you have appropriate rights to use the Rive animation file and comply with Rive runtime licensing requirements.
