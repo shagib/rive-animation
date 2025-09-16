@@ -2,17 +2,23 @@
 This project showcases an interactive Rive animation implementation featuring multiple clickable elements that open specific case study pages. The animation serves as an engaging visual interface with various interactive components.
 
 <h3>✨ Features</h3><br>
-Interactive Rive Animation: Seamlessly integrated Rive animation with interactive elements<br>
+Interactive Rive Animation: Seamlessly integrated Rive animation with interactive elements
+<br>
 
-Multiple Clickable Areas: 40+ interactive hotspots throughout the animation<br>
+Multiple Clickable Areas: 40+ interactive hotspots throughout the animation
+<br>
 
-Dynamic URL Mapping: Each interactive element opens a specific case study URL in a new tab<br>
+Dynamic URL Mapping: Each interactive element opens a specific case study URL in a new tab
+<br>
 
-Responsive Design: Adapts to different screen sizes with an elegant gradient background<br>
+Responsive Design: Adapts to different screen sizes with an elegant gradient background
+<br>
 
-Event Logging: Console logging for debugging interaction events<br>
+Event Logging: Console logging for debugging interaction events
+<br>
 
-Modern UI: Clean, visually appealing design with smooth animations<br>
+Modern UI: Clean, visually appealing design with smooth animations
+<br>
 
 
 <h3>🛠️ Technical Implementation</h3><br>
@@ -30,10 +36,14 @@ Modern UI: Clean, visually appealing design with smooth animations<br>
 <br>
 
 <h3>📁 Project Structure</h3><br>
-text<br>
-├── index.html                 # Main HTML file with embedded CSS and JavaScript<br>
-├── boomdevs_hero_section.riv  # Rive animation file (not included in repo)<br>
-└── README.md                  # Project documentation<br>
+text
+<br>
+├── index.html                 # Main HTML file with embedded CSS and JavaScript
+<br>
+├── boomdevs_hero_section.riv  # Rive animation file (not included in repo)
+<br>
+└── README.md                  # Project documentation
+<br>
 ⚙️ Configuration<br>
 
 The animation is configured with:
@@ -53,7 +63,8 @@ Easily modify:<br>
 <br>
 
 <h3>🌐 Browser Compatibility</h3>
-Works in all modern browsers supporting:<br>
+Works in all modern browsers supporting:
+<br>
 
 > HTML5 Canvas<br>
 > ES6 JavaScript<br>
