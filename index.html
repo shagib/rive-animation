@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rive Animation</title>
+    <script src="https://unpkg.com/@rive-app/canvas@latest"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+            color: #e2e8f0;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            font-size: 54px;
+            margin-bottom: 100px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Rive Animation <br> For <br>Multiple Window & Button</h1>
+        <canvas id="canvas" width="1000" height="500"></canvas>
+    </div>
+    
+
+    <script>
+      
+        const r = new rive.Rive({
+            src: "boomdevs_hero_section.riv",
+            canvas: document.getElementById("canvas"),
+            autoplay: true,
+            stateMachines: "State Machine 1",
+            onLoad: () => {
+                r.resizeDrawingSurfaceToCanvas();
+            },
+        });
+        const buttonLinks = {
+            "Idustries  Retail Hit 1": "https://www.boomdevs.co/case-studies/paul-thomas-flowers/",
+            "Idustries Blockchain Hit 1": "https://www.boomdevs.co/case-studies/flash-trade/",
+            "Idustries Travel Hit 1": "https://www.boomdevs.co/case-studies/rooftop-saunas/",
+            "Idustries Travel Hit 2": "https://www.boomdevs.co/case-studies/world-wide-mobility/",
+            "Idustries  Education Hit 1": "https://www.boomdevs.co/case-studies/batchlearn/",
+            "Idustries  E-comm Hit 1": "https://www.boomdevs.co/case-studies/fullfillit/",
+            "Idustries  Healthcare Hit 1": "https://www.boomdevs.co/case-studies/kelly-brush-foundation/",
+            "Idustries Fintech Hit 1": "https://www.boomdevs.co/case-studies/flash-trade/",
+
+            "Stack 1 Hit 1": "https://www.boomdevs.co/case-studies/kelly-brush-foundation/",
+            "Stack 1 Hit 2": "https://www.boomdevs.co/case-studies/rooftop-saunas/",
+            "Stack 1 Hit 3": "https://www.boomdevs.co/case-studies/paul-thomas-flowers/",
+
+            "Stack 2 Hit 1": "https://www.boomdevs.co/case-studies/world-wide-mobility/",
+            "Stack 2 Hit 2": "https://www.boomdevs.co/case-studies/kelly-brush-foundation/",
+            "Stack 2 Hit 3": "https://www.boomdevs.co/case-studies/batchlearn/",
+            "Stack 2 Hit 4": "https://www.boomdevs.co/case-studies/paul-thomas-flowers/",
+            "Stack 2 Hit 5": "https://www.boomdevs.co/case-studies/fullfillit/",
+            "Stack 2 Hit 6": "https://www.boomdevs.co/case-studies/flash-trade/",
+
+            "Stack 3 Hit 1": "https://www.boomdevs.co/case-studies/world-wide-mobility/",
+
+            "Stack 4 Hit 1": "https://www.boomdevs.co/case-studies/world-wide-mobility/",
+
+            "Stack 5 Hit 1": "https://www.boomdevs.co/case-studies/kelly-brush-foundation/",
+            "Stack 5 Hit 2": "https://www.boomdevs.co/case-studies/fullfillit/",
+
+            "Stack 6 Hit 1": "https://www.boomdevs.co/case-studies/rooftop-saunas/",
+
+            "Stack 7 Hit 1": "https://www.boomdevs.co/case-studies/batchlearn/",
+            "Stack 7 Hit 2": "https://www.boomdevs.co/case-studies/fullfillit/",
+
+            "Stack 8 Hit 1": "https://www.boomdevs.co/case-studies/rooftop-saunas/",
+            "Stack 8 Hit 2": "https://www.boomdevs.co/case-studies/world-wide-mobility/",
+            "Stack 8 Hit 3": "https://www.boomdevs.co/case-studies/flash-trade/",
+
+            "Stack 9 Hit 1": "https://www.boomdevs.co/case-studies/kelly-brush-foundation/",
+            "Stack 9 Hit 2": "https://www.boomdevs.co/case-studies/paul-thomas-flowers/",
+            "Stack 9 Hit 3": "https://www.boomdevs.co/case-studies/fullfillit/",
+            "Stack 9 Hit 4": "https://www.boomdevs.co/case-studies/rooftop-saunas/",
+
+            "Stack 10 Hit 1": "https://www.boomdevs.co/case-studies/world-wide-mobility/",
+            "Stack 10 Hit 2": "https://www.boomdevs.co/case-studies/rooftop-saunas/",
+
+            "Stack 11 Hit 1": "https://www.boomdevs.co/case-studies/flash-trade/",
+
+            "Stack 12 Hit 1": "https://www.boomdevs.co/case-studies/rooftop-saunas/",
+            "Stack 12 Hit 2": "https://www.boomdevs.co/case-studies/world-wide-mobility/",
+            "Stack 12 Hit 3": "https://www.boomdevs.co/case-studies/flash-trade/",
+
+            "Stack 13 Hit 1": "https://www.boomdevs.co/case-studies/flash-trade/",
+
+            "Case Studues Hit 1": "https://www.boomdevs.co/case-studies/paul-thomas-flowers/",
+            "Case Studues Hit 2": "https://www.boomdevs.co/case-studies/rooftop-saunas/",
+            "Case Studues Hit 3": "https://www.boomdevs.co/case-studies/batchlearn/",
+            "Case Studues Hit 4": "https://www.boomdevs.co/case-studies/world-wide-mobility/",
+            "Case Studues Hit 5": "https://www.boomdevs.co/case-studies/kelly-brush-foundation/",
+            "Case Studues Hit 6": "https://www.boomdevs.co/case-studies/fullfillit/",
+            "Case Studues Hit 7": "https://www.boomdevs.co/case-studies/flash-trade/",
+        };
+        r.on(rive.EventType.RiveEvent, (event) => {
+            const link = buttonLinks[event.data?.name];
+            if (link) window.open(link, "_blank");
+        });
+        r.on(rive.EventType.RiveEvent, (event) => {
+            console.log("Event fired:", event.data?.name || event.name);
+        });
+
+    </script>
+</body>
+</html>
